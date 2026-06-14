@@ -1,0 +1,19 @@
+# MATLAB / Octave temp & autosave files
+*.asv
+*.m~
+*.autosave
+octave-workspace
+slprj/
+*.slxc
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Notes:
+# - results/*.png are intentionally tracked because the README embeds them.
+# - data/Project2Data.mat is tracked so the project is runnable out of the box.
+#   If you later add large raw datasets, ignore them here or use Git LFS.
