@@ -66,7 +66,7 @@ run('Project2_Gait_Analysis_Peter_Z.m')   % computes loads and produces the mome
 
 `Project2_Gait_Analysis_Peter_Z.m` loads the data if the data is in the scripts current directory. So, in order to get the script to work the data needs to in the same directory as the downloaded script.
 
-##Data
+## Data
 
 Project2Data.mat contains two matrices:
  
