@@ -70,7 +70,7 @@ run('Project2_Gait_Analysis_Peter_Z.m')   % computes loads and produces the mome
 
 `Project2Data.mat` contains two matrices:
 
-- **`MarkerData`** — 106 frames × 18 columns: frame index, time stamp, and the $(x, y)$ coordinates of the hip, knee, fibula, ankle, and metatarsal markers (meters).
+- **`MarkerData`** — 106 frames × 18 columns: frame index, time stamp, and the $(x, y)$ coordinates of the hip, knee, fibula, ankle, and metatarsal markers (meters), Force Plate Data, Center of Pressure, and some other values that are irrelivent to this project.
 
 
 The trial spans ~1.5 s sampled at roughly 70 Hz.
