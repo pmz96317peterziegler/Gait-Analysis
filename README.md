@@ -96,8 +96,4 @@ The trial spans ~1.5 s sampled at roughly 70 Hz.
 
 ## Author
 
-Peter Z
-
-## License
-
-Released under the MIT License — see [`LICENSE`](LICENSE).
+Peter Ziegler
