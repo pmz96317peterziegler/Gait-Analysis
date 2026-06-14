@@ -2,7 +2,7 @@
 
 Estimating the **net joint moments** and **intersegmental reaction forces** at the ankle, knee, and hip during a human gait cycle, from planar motion-capture markers and force-plate data, using a recursive Newton–Euler inverse-dynamics formulation in MATLAB.
 
-![Net joint moments during the gait cycle](results/joint_moments.png)
+![Net joint moments during the gait cycle](results/moments.png)
 
 ---
 
@@ -36,15 +36,15 @@ Marker noise is amplified by differentiation, so a centered moving-average filte
 
 **Net joint moments.** The ankle shows the characteristic large plantarflexor moment that builds through mid-to-late stance — the "push-off" that propels the body forward — while the knee and hip moments are smaller and reverse sign across the cycle.
 
-![Net joint moments](results/joint_moments.png)
+![Net joint moments](results/moments.png)
 
 **Intersegmental reaction forces.** The vertical components ($F_y$) at all three joints reproduce the classic **double-bump (M-shaped) loading pattern** of walking: a peak at weight acceptance and a second at push-off, with a dip during midstance.
 
-![Intersegmental joint reaction forces](results/intersegmental_forces.png)
+![Intersegmental joint reaction forces](results/forces.png)
 
 **Posture reconstruction.** A stick-figure rendering of the foot–shank–thigh chain across the trial, offset along the time axis, gives a quick visual check that the marker geometry and segment connectivity are sane (lighter = earlier in the cycle, darker = later).
 
-![Stick-figure reconstruction of leg posture](results/stick_figure.png)
+
 
 ## Repository structure
 
