@@ -66,12 +66,10 @@ run('Project2_Gait_Analysis_Peter_Z.m')   % computes loads and produces the mome
 
 `Project2_Gait_Analysis_Peter_Z.m` loads the data if the data is in the scripts current directory. So, in order to get the script to work the data needs to in the same directory as the downloaded script.
 
-## Data
-
-`Project2Data.mat` contains two matrices:
-
-- **`MarkerData`** — 106 frames × 18 columns: frame index, time stamp, Force Plate Data, Center of Pressure, and the $(x, y)$ coordinates of the hip, knee, fibula, ankle, and metatarsal markers (meters),  and some other values that are irrelivent to this project.
-
+Project2Data.mat contains two matrices:
+ 
+  - MarkerData — 106 frames × 18 columns: frame index, time stamp, and the $(x, y)$ coordinates (meters) of the hip, knee, fibula, ankle, and metatarsal markers. The remaining columns are unused by this analysis.
+  - ForceData — force-plate measurements for the same frames: the horizontal and vertical ground reaction force components and the center of pressure.
 
 The trial spans ~1.5 s sampled at roughly 70 Hz.
 
