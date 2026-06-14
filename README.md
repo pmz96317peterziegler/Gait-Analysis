@@ -49,8 +49,7 @@ Marker noise is amplified by differentiation, so a centered moving-average filte
 ```
 .
 ├── src/
-│   ├── gait_analysis.m   # main inverse-dynamics pipeline (run this first)
-│   └── frames.m          # stick-figure animation from the computed posture
+│   ├── gait_analysis.m   # main inverse-dynamics pipeline (run this first)         
 ├── data/
 │   └── Project2Data.mat  # marker + force-plate data (106 frames, ~70 Hz)
 ├── results/              # figures rendered from the analysis
