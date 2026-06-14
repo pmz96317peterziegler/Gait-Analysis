@@ -42,8 +42,6 @@ Marker noise is amplified by differentiation, so a centered moving-average filte
 
 ![Intersegmental joint reaction forces](results/forces.png)
 
-**Posture reconstruction.** A stick-figure rendering of the foot–shank–thigh chain across the trial, offset along the time axis, gives a quick visual check that the marker geometry and segment connectivity are sane (lighter = earlier in the cycle, darker = later).
-
 
 
 ## Repository structure
