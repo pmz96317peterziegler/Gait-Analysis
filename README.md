@@ -34,7 +34,7 @@ Marker noise is amplified by differentiation, so a centered moving-average filte
  
 ## Results
  
-**Net joint moments.** The ankle shows the characteristic large plantarflexor moment that builds through mid-to-late stance — the "push-off" that propels the body forward — and is the largest joint moment in the cycle. The knee and hip moments are smaller and reverse sign across the cycle, reflecting the alternating flexion/extension demands of swing and stance.
+**Net joint moments.** The ankle shows the characteristic large moment that builds through the "push-off" that propels the body forward and is the largest joint moment in the cycle. The knee and hip moments are smaller and reverse sign across the cycle, reflecting the alternating flexion/extension demands of swing and stance.
 
 ![Net joint moments](results/moments.png)
 
