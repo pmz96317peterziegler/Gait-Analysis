@@ -61,11 +61,10 @@ Marker noise is amplified by differentiation, so a centered moving-average filte
 Requirements: **MATLAB** (developed and tested on a recent release; no add-on toolboxes required — `movmean` and `unwrap` are in base MATLAB).
 
 ```matlab
-Place 'Project2Data.mat' in the same folder as the downloaded script
 run('Project2_Gait_Analysis_Peter_Z.m')   % computes loads and produces the moment/force plots
 ```
 
-`Project2_Gait_Analysis_Peter_Z.m` loads the data if the data is in the scripts current directory. So, in order to get the script to work you the data needs to in the same directory as the downloaded script.
+`Project2_Gait_Analysis_Peter_Z.m` loads the data if the data is in the scripts current directory. So, in order to get the script to work the data needs to in the same directory as the downloaded script.
 
 ## Data
 
